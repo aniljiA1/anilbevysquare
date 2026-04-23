@@ -2,6 +2,9 @@
 
 A simple User CRUD application built with Next.js App Router and JSONPlaceholder API.
 
+## Live Demo:
+Live : https://anilbevysquare.vercel.app
+
 ## This project demonstrates:
 
 Fetching all users
