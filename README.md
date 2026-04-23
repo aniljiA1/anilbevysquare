@@ -1,24 +1,24 @@
-Next.js CRUD App
+## Next.js CRUD App
 
 A simple User CRUD application built with Next.js App Router and JSONPlaceholder API.
 
-This project demonstrates:
+## This project demonstrates:
 
 Fetching all users
 Viewing a single user
 Updating user details
 Deleting a user
 Dynamic routing using Next.js App Router
-🚀 Tech Stack
+## 🚀 Tech Stack
 Next.js 16
 React
 TypeScript
 Tailwind CSS
 Axios
-📌 Features
+## 📌 Features
 ✅ Users List Page
 
-Fetch all users using:
+## Fetch all users using:
 
 GET /users
 Display:
@@ -39,7 +39,7 @@ Delete using:
 
 DELETE /users/:id
 Redirects back to /users
-📂 Folder Structure
+## 📂 Folder Structure
 nextjs-crud-app/
 │
 ├── app/
@@ -62,7 +62,7 @@ nextjs-crud-app/
 ├── public/
 ├── package.json
 └── README.md
-🌐 API Used
+## 🌐 API Used
 
 Base URL:
 
@@ -74,7 +74,7 @@ GET     /users
 GET     /users/:id
 PUT     /users/:id
 DELETE  /users/:id
-⚙️ Installation
+## ⚙️ Installation
 1️⃣ Clone Repository
 git clone https://github.com/your-username/nextjs-crud-app.git
 2️⃣ Navigate to Project
@@ -85,12 +85,8 @@ npm install
 npm run dev
 ▶️ Open In Browser
 http://localhost:3000
-📸 Screens Included
-Users Listing Page
-User Details Page
-Update User Form
-Delete Functionality
-🧠 Concepts Used
+
+## 🧠 Concepts Used
 Next.js App Router
 Dynamic Routing
 Client Components
@@ -100,7 +96,7 @@ React Hooks
 State Management
 Conditional Rendering
 Tailwind CSS
-⚠️ Note
+## ⚠️ Note
 
 JSONPlaceholder is a fake API.
 
@@ -109,8 +105,7 @@ Changes made using:
 PUT
 DELETE
 
-are not permanently saved on the server.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Anil Kumar
