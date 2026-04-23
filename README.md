@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Next.js CRUD App
 
-## Getting Started
+A simple User CRUD application built with Next.js App Router and JSONPlaceholder API.
 
-First, run the development server:
+This project demonstrates:
 
-```bash
+Fetching all users
+Viewing a single user
+Updating user details
+Deleting a user
+Dynamic routing using Next.js App Router
+🚀 Tech Stack
+Next.js 16
+React
+TypeScript
+Tailwind CSS
+Axios
+📌 Features
+✅ Users List Page
+
+Fetch all users using:
+
+GET /users
+Display:
+Name
+Email
+View button for each user
+✅ Dynamic User Page (/users/[id])
+Fetch Single User
+GET /users/:id
+Update User
+Editable form
+Pre-filled user data
+Update using:
+PUT /users/:id
+Delete User
+
+Delete using:
+
+DELETE /users/:id
+Redirects back to /users
+📂 Folder Structure
+nextjs-crud-app/
+│
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   │
+│   └── users/
+│       ├── page.tsx
+│       └── [id]/
+│           └── page.tsx
+│
+├── components/
+│   ├── Loader.tsx
+│   ├── UserCard.tsx
+│   └── UserForm.tsx
+│
+├── services/
+│   └── api.ts
+│
+├── public/
+├── package.json
+└── README.md
+🌐 API Used
+
+Base URL:
+
+https://jsonplaceholder.typicode.com
+
+Endpoints used:
+
+GET     /users
+GET     /users/:id
+PUT     /users/:id
+DELETE  /users/:id
+⚙️ Installation
+1️⃣ Clone Repository
+git clone https://github.com/your-username/nextjs-crud-app.git
+2️⃣ Navigate to Project
+cd nextjs-crud-app
+3️⃣ Install Dependencies
+npm install
+4️⃣ Run Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+▶️ Open In Browser
+http://localhost:3000
+📸 Screens Included
+Users Listing Page
+User Details Page
+Update User Form
+Delete Functionality
+🧠 Concepts Used
+Next.js App Router
+Dynamic Routing
+Client Components
+API Integration
+Axios
+React Hooks
+State Management
+Conditional Rendering
+Tailwind CSS
+⚠️ Note
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+JSONPlaceholder is a fake API.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Changes made using:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+PUT
+DELETE
 
-## Learn More
+are not permanently saved on the server.
 
-To learn more about Next.js, take a look at the following resources:
+👨‍💻 Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Anil Kumar
