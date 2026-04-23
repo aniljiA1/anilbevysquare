@@ -79,7 +79,7 @@ PUT     /users/:id
 DELETE  /users/:id
 ## ⚙️ Installation
 1️⃣ Clone Repository
-git clone https://github.com/your-username/nextjs-crud-app.git
+git clone https://github.com/aniljiA1/anilbevysquare.git
 2️⃣ Navigate to Project
 cd nextjs-crud-app
 3️⃣ Install Dependencies
